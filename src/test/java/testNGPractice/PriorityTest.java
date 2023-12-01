@@ -6,7 +6,7 @@ public class PriorityTest {
   @Test (groups = {"Sanity Testing"}, priority=2)
   public void A() {
 	  
-	  System.out.println("Test1");
+	  System.out.println("Test1 for pushing github");
   }
   
   @Test (groups = {"Smoke Testing"})
