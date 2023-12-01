@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grouping]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Grouping(failed)">
+    <classes>
+      <class name="testNGPractice.PriorityTest">
+        <methods>
+          <include name="C"/>
+        </methods>
+      </class> <!-- testNGPractice.PriorityTest -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [Grouping] -->

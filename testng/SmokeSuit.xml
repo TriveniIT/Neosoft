@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuitSuite">
+  <test thread-count="5" name="SmokeSuitTest">
+    <classes>
+      <class name="com.Automation.TestCase.TC_LoginTest_0001"/>
+      <class name="com.Automation.TestCase.TC_ClickNewCustomer_0002"/>
+      <class name="com.Automation.TestCase.TC_ClickEditCustomer_0003"/>
+    </classes>
+  </test> <!-- SmokeSuitTest -->
+</suite> <!-- SmokeSuitSuite -->
