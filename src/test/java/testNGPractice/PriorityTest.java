@@ -12,7 +12,7 @@ public class PriorityTest {
   @Test (groups = {"Smoke Testing"})
   public void B() {
 	  
-	  System.out.println("Test2");
+	  System.out.println("Test2 for github");
   }
   
   @Test (groups = {"Sanity Testing"},priority=1)
